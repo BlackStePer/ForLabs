@@ -7,12 +7,20 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SuperVuzVuZ {
+    /// <summary>
+    /// Класс, описывающий главного страдальца этой вселенной - обычного студента
+    /// </summary>
     internal class Student {
         private static Random random = new Random();
         public string Name { get; set; }
         public Student(string name) => Name = name;
         public Dictionary<IHavePractice, int> Practices = new();
         public Dictionary<IHaveFinalControll, int> FinalControls = new();
+        /// <summary>
+        /// Дать взятку проподавателю за автомат
+        /// </summary>
+        /// <param name="discipline">Любая дисциплина</param>
+        /// <returns>Сообщение об успешной/безуспешной попытке подкупить препода</returns>
         public string GiveBribe(Discipline discipline)
         {
             string message = "";

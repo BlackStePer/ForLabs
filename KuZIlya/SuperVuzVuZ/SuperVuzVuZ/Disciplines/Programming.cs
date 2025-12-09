@@ -6,6 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SuperVuzVuZ.Disciplines {
+    /// <summary>
+    /// Программирование — это процесс создания компьютерных программ и приложений путем написания инструкций на специальных языках программирования, которые управляют действиями компьютера, автоматизируют задачи и решают сложные проблемы, от веб-сайтов и игр до научных расчетов и систем безопасности. Это искусство, требующее изучения алгоритмов, структур данных и постоянного обучения
+    /// </summary>
     internal class Programming : Discipline, IHavePractice {
         public Programming(string name, int practiceCount) : base(name)
         {

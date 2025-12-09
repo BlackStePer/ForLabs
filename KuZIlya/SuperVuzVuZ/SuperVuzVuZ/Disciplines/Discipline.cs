@@ -13,6 +13,9 @@ namespace SuperVuzVuZ.Disciplines {
         Test = 2,
         All = Practice | Test
     }
+    /// <summary>
+    /// Абстрактный класс, описывает поля дисциплин для сдачи
+    /// </summary>
     internal abstract class Discipline {
         private static Random random = new Random();
         public string Name { get; set; }
@@ -23,6 +26,12 @@ namespace SuperVuzVuZ.Disciplines {
             Name = name;
             Bribe = takesBribe? random.Next(10000, 100000) : int.MaxValue;
         }
+        /// <summary>
+        /// Процесс и результат попытки получить автомат
+        /// </summary>
+        /// <param name="student">Рассматриваемый студент</param>
+        /// <param name="success">Возвращает true, если атвомат получен, иначе false</param>
+        /// <returns>Строку, содержащую информацию об успехе/неудаче студента</returns>
         public string Passed(Student student,out bool success)
         {
             success = false;
@@ -41,7 +50,6 @@ namespace SuperVuzVuZ.Disciplines {
         }
         private (DisciplineExamRequires, bool)? CheckRequiredConditions(Student student)
         {
-
             if (this is IHavePractice && this is IHaveFinalControll)
                 return (DisciplineExamRequires.All, ((IHavePractice)this).Check(student.Practices[(IHavePractice)this]) && ((IHaveFinalControll)this).Check(student.FinalControls[(IHaveFinalControll)this]));
             if (this is IHavePractice)

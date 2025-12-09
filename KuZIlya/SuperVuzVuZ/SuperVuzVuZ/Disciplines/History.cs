@@ -6,6 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SuperVuzVuZ.Disciplines {
+    /// <summary>
+    /// История — это наука, изучающая прошлое человечества, а также сами события прошлого и память о них, включая сбор и анализ информации; это общий термин, охватывающий как гуманитарную науку, так и записи событий, а также историю вашего браузера или поиска в Google. Историческая наука исследует, как события развивались, а также используется для понимания современности через призму прошлого;
+    /// </summary>
     internal class History : Discipline, IHavePractice, IHaveFinalControll {
         public History(string name, int practiceCount, int passingScore) : base(name)
         {
