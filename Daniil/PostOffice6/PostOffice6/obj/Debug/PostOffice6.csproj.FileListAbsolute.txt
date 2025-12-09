@@ -1,0 +1,8 @@
+G:\Прога\PostOffice6\PostOffice6\bin\Debug\PostOffice6.exe.config
+G:\Прога\PostOffice6\PostOffice6\bin\Debug\PostOffice6.exe
+G:\Прога\PostOffice6\PostOffice6\bin\Debug\PostOffice6.pdb
+G:\Прога\PostOffice6\PostOffice6\obj\Debug\PostOffice6.csproj.AssemblyReference.cache
+G:\Прога\PostOffice6\PostOffice6\obj\Debug\PostOffice6.csproj.CoreCompileInputs.cache
+G:\Прога\PostOffice6\PostOffice6\obj\Debug\PostOffice6.exe
+G:\Прога\PostOffice6\PostOffice6\obj\Debug\PostOffice6.pdb
+G:\Прога\PostOffice6\PostOffice6\obj\Debug\PostOffice6.exe.config

@@ -1,0 +1,8 @@
+G:\Прога\SmartPhone8\SmartPhone8\bin\Debug\SmartPhone8.exe.config
+G:\Прога\SmartPhone8\SmartPhone8\bin\Debug\SmartPhone8.exe
+G:\Прога\SmartPhone8\SmartPhone8\bin\Debug\SmartPhone8.pdb
+G:\Прога\SmartPhone8\SmartPhone8\obj\Debug\SmartPhone8.csproj.AssemblyReference.cache
+G:\Прога\SmartPhone8\SmartPhone8\obj\Debug\SmartPhone8.csproj.CoreCompileInputs.cache
+G:\Прога\SmartPhone8\SmartPhone8\obj\Debug\SmartPhone8.exe
+G:\Прога\SmartPhone8\SmartPhone8\obj\Debug\SmartPhone8.pdb
+G:\Прога\SmartPhone8\SmartPhone8\obj\Debug\SmartPhone8.exe.config

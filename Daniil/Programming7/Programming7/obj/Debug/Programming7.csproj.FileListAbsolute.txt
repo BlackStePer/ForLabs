@@ -1,0 +1,8 @@
+G:\Прога\Programming7\Programming7\bin\Debug\Programming7.exe.config
+G:\Прога\Programming7\Programming7\bin\Debug\Programming7.exe
+G:\Прога\Programming7\Programming7\bin\Debug\Programming7.pdb
+G:\Прога\Programming7\Programming7\obj\Debug\Programming7.csproj.AssemblyReference.cache
+G:\Прога\Programming7\Programming7\obj\Debug\Programming7.csproj.CoreCompileInputs.cache
+G:\Прога\Programming7\Programming7\obj\Debug\Programming7.exe
+G:\Прога\Programming7\Programming7\obj\Debug\Programming7.pdb
+G:\Прога\Programming7\Programming7\obj\Debug\Programming7.exe.config
