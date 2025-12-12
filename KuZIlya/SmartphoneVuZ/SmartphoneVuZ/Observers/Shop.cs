@@ -21,10 +21,15 @@ namespace SmartphoneVuZ.Observers {
         public void Update(FactoryInformation information)
         {
             foreach (var smartphone in information.Smartphones[..])
-                if (Smartphones.Count <= 10)
+                if (Smartphones.Count < 10)
                 {
                     Smartphones.Add(smartphone);
                     information.Smartphones.Remove(smartphone);
+                }
+                else
+                {
+                    information.Informator.RemoveObserver(this);
+                    break;
                 }
         }
         /// <summary>
@@ -33,8 +38,27 @@ namespace SmartphoneVuZ.Observers {
         /// <param name="factoryInformator">Оповещатель</param>
         public void BuyMorePhones(IObservable factoryInformator)
         {
-            if (Smartphones.Count <= 10)
+            if (Smartphones.Count < 10)
                 factoryInformator.AddObserver(this);
+        }
+        public override string ToString()
+        {
+            string message = "";
+            if (Smartphones.Count == 10)
+            {
+                message += $"Магазин {Name} приобрёл достаточное кол-во телефонов для распространения их по всему миру.\nКонкретный список приобретённых телефонов:\n";
+                foreach (var smartphone in Smartphones)
+                    message += "\n" + smartphone;
+            }
+            else if (Smartphones.Count == 0)
+                return $"Магазин {Name} не получил ни одного телефона... {Name} ожидает новой поставки!!!\n";
+            else
+            {
+                message += $"Магазин {Name} не смог приобрести достаточное кол-во телефонов для распространения их по всему миру, поэтому будет ожидать дальнейших поставок.\nСписок присутствующих на складе телефонов:\n";
+                foreach (var smartphone in Smartphones)
+                    message += "\n" + smartphone;
+            }
+            return message + "\n";
         }
     }
 }

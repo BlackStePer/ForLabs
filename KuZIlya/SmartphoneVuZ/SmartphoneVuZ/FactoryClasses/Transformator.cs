@@ -29,5 +29,6 @@ namespace SmartphoneVuZ.FactoryClasses {
             TransfromType = transType;
             ++currentID;
         }
+        public override string ToString() => $"Трансформатор{SerialNumber}";
     }
 }

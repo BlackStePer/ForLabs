@@ -6,7 +6,6 @@ namespace SmartphoneVuZ.FactoryClasses {
     /// </summary>
     internal class Factory {
         public readonly FactoryInformator informator;
-        // Удаление всех объектов происходит при уничтожении объекта factory
         private List<GentleSmartphone> smartphones = new List<GentleSmartphone>();
         public List<GentleSmartphone> Smartphones
         {
@@ -38,9 +37,10 @@ namespace SmartphoneVuZ.FactoryClasses {
         {
             informator.Smartphones = Smartphones;
             informator.NotifyObservers();
-            foreach (var smartphone in smartphones[..])
-                if (!informator.Smartphones.Contains(smartphone))
-                    smartphones.Remove(smartphone);
+            smartphones = informator.Smartphones;
+            //foreach (var smartphone in smartphones[..])
+            //    if (!informator.Smartphones.Contains(smartphone))
+            //        smartphones.Remove(smartphone);
         }
     }
 }
