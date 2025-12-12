@@ -47,6 +47,8 @@ namespace SmartphoneVuZ {
                 Console.WriteLine(customer5);
                 Console.WriteLine(customer6);
                 Console.WriteLine(shop2);
+#endif
+                #endregion
             }
             catch (Exception ex)
             {
@@ -57,8 +59,6 @@ namespace SmartphoneVuZ {
                 GentleSmartphone.idSerializer.Serialize(GentleSmartphone.currentID);
                 Transformator.idSerializer.Serialize(Transformator.currentID);
             }
-#endif
-                #endregion
 
         }
 
