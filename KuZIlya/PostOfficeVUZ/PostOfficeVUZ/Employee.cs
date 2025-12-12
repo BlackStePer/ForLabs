@@ -29,17 +29,17 @@ namespace PostOfficeVUZ {
         /// <summary>
         /// Свойство, хранящее дату найма рабочего
         /// </summary>
-        public required DateTime DateOfEmplyment { get; init; }
+        public required DateTime DateOfEmployment { get; init; }
         /// <summary>
         /// Метод, возвращающий имя рабочего
         /// </summary>
         /// <returns>Имя рабочего</returns>
-        public string Say() => Name;
-        public virtual double WorkTime() => 0;
+        public string EmployeeName() => Name;
+        public virtual double WorkExperience() => 0;
         /// <summary>
         /// Метод, показывающий, что делает рабочий
         /// </summary>
         /// <returns>Действие, которым занят рабочий в данный момент</returns>
-        public virtual string? WhatToDo() => null;
+        public virtual string? EmployeeАction() => null;
     }
 }
