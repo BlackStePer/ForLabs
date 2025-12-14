@@ -1,0 +1,14 @@
+C:\Users\Пользователь\source\repos\InternshipVUZ\InternshipVUZ\obj\Debug\net9.0\InternshipVUZ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Пользователь\source\repos\InternshipVUZ\InternshipVUZ\obj\Debug\net9.0\InternshipVUZ.AssemblyInfoInputs.cache
+C:\Users\Пользователь\source\repos\InternshipVUZ\InternshipVUZ\obj\Debug\net9.0\InternshipVUZ.AssemblyInfo.cs
+C:\Users\Пользователь\source\repos\InternshipVUZ\InternshipVUZ\obj\Debug\net9.0\InternshipVUZ.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\InternshipVUZ\InternshipVUZ\bin\Debug\net9.0\InternshipVUZ.exe
+C:\Users\Пользователь\source\repos\InternshipVUZ\InternshipVUZ\bin\Debug\net9.0\InternshipVUZ.deps.json
+C:\Users\Пользователь\source\repos\InternshipVUZ\InternshipVUZ\bin\Debug\net9.0\InternshipVUZ.runtimeconfig.json
+C:\Users\Пользователь\source\repos\InternshipVUZ\InternshipVUZ\bin\Debug\net9.0\InternshipVUZ.dll
+C:\Users\Пользователь\source\repos\InternshipVUZ\InternshipVUZ\bin\Debug\net9.0\InternshipVUZ.pdb
+C:\Users\Пользователь\source\repos\InternshipVUZ\InternshipVUZ\obj\Debug\net9.0\InternshipVUZ.dll
+C:\Users\Пользователь\source\repos\InternshipVUZ\InternshipVUZ\obj\Debug\net9.0\refint\InternshipVUZ.dll
+C:\Users\Пользователь\source\repos\InternshipVUZ\InternshipVUZ\obj\Debug\net9.0\InternshipVUZ.pdb
+C:\Users\Пользователь\source\repos\InternshipVUZ\InternshipVUZ\obj\Debug\net9.0\InternshipVUZ.genruntimeconfig.cache
+C:\Users\Пользователь\source\repos\InternshipVUZ\InternshipVUZ\obj\Debug\net9.0\ref\InternshipVUZ.dll
