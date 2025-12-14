@@ -1,0 +1,14 @@
+C:\Users\Пользователь\source\repos\PostOfficeVUZ\PostOfficeVUZ\bin\Debug\net9.0\PostOfficeVUZ.exe
+C:\Users\Пользователь\source\repos\PostOfficeVUZ\PostOfficeVUZ\bin\Debug\net9.0\PostOfficeVUZ.deps.json
+C:\Users\Пользователь\source\repos\PostOfficeVUZ\PostOfficeVUZ\bin\Debug\net9.0\PostOfficeVUZ.runtimeconfig.json
+C:\Users\Пользователь\source\repos\PostOfficeVUZ\PostOfficeVUZ\bin\Debug\net9.0\PostOfficeVUZ.dll
+C:\Users\Пользователь\source\repos\PostOfficeVUZ\PostOfficeVUZ\bin\Debug\net9.0\PostOfficeVUZ.pdb
+C:\Users\Пользователь\source\repos\PostOfficeVUZ\PostOfficeVUZ\obj\Debug\net9.0\PostOfficeVUZ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Пользователь\source\repos\PostOfficeVUZ\PostOfficeVUZ\obj\Debug\net9.0\PostOfficeVUZ.AssemblyInfoInputs.cache
+C:\Users\Пользователь\source\repos\PostOfficeVUZ\PostOfficeVUZ\obj\Debug\net9.0\PostOfficeVUZ.AssemblyInfo.cs
+C:\Users\Пользователь\source\repos\PostOfficeVUZ\PostOfficeVUZ\obj\Debug\net9.0\PostOfficeVUZ.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\PostOfficeVUZ\PostOfficeVUZ\obj\Debug\net9.0\PostOfficeVUZ.dll
+C:\Users\Пользователь\source\repos\PostOfficeVUZ\PostOfficeVUZ\obj\Debug\net9.0\refint\PostOfficeVUZ.dll
+C:\Users\Пользователь\source\repos\PostOfficeVUZ\PostOfficeVUZ\obj\Debug\net9.0\PostOfficeVUZ.pdb
+C:\Users\Пользователь\source\repos\PostOfficeVUZ\PostOfficeVUZ\obj\Debug\net9.0\PostOfficeVUZ.genruntimeconfig.cache
+C:\Users\Пользователь\source\repos\PostOfficeVUZ\PostOfficeVUZ\obj\Debug\net9.0\ref\PostOfficeVUZ.dll
