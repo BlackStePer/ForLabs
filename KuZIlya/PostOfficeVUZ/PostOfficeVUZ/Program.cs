@@ -43,7 +43,7 @@
                 case 2:
                     Console.WriteLine("1) Какая лучшая почта в мире?\n1. Почта России\n2. Почта России\n3. Почта России\n4. Почта России");
                     answer = Console.ReadLine();
-                    if ("1234".Contains(answer) || answer.Replace(" ", "").ToLower() == "почтароссии")
+                    if (("1234".Contains(answer) && answer.Length == 1) || answer.Replace(" ", "").ToLower() == "почтароссии")
                     {
                         Console.WriteLine("2) Как правильно обращаться с посылкой?\n1. Нести аккуратно, чтобы ничего не повредилось\n2. Использовать как футбольный мяч");
                         answer = Console.ReadLine();
@@ -51,9 +51,8 @@
                         {
                             Console.WriteLine("3) Где живёт кот Матроскин?");
                             answer = Console.ReadLine();
-                            if (answer == "Простоквашино" || answer.Replace(" ", "").ToLower() == "почтароссии")
+                            if (answer == "Простоквашино"|| answer == "В Простоквашино" || answer == "в Простоквашино" ||answer.Replace(" ", "").ToLower() == "почтароссии")
                                 return true;
-
                         }
                     }
                     return false;
@@ -89,7 +88,6 @@
             post.Employees.Add(postman);
             post.Employees.Add(_operator);
             post.Employees.Add(badCashier);
-            
             int q = 0;
             string? password = null;
             bool end = false;
@@ -130,21 +128,25 @@
                                 break;
                             case Question.GoHome:
                                 ++q;
-                                if (q == 666)
-                                    return;
-                                Console.WriteLine("Надо просить искреннее...");
+                                    if (q == 666)
+                                    {
+                                        localEnd = true;
+                                        end = true;
+                                    }
+                                    else
+                                        Console.WriteLine("Надо просить искреннее...");
                                 break;
                             case Question.GoToNext:
                                 localEnd = true;
                                 break;
                             case Question.Poll:
-                                Console.WriteLine(post.Poll());
+                                Console.WriteLine(post.AskAllQuestions());
                                 break;
                             case Question.Stat:
-                                Console.WriteLine($"Средняя зарплата сотрудников почтового отделения: {post.Stat()} рублей");
+                                Console.WriteLine($"Средняя зарплата сотрудников почтового отделения: {post.SalaryStatistics()} рублей");
                                 break;
                             case Question.BeHired: // Кодовое слово почтароссии
-                                    Console.WriteLine("Какое у вас имя?");
+                                Console.WriteLine("Какое у вас имя?");
                                 string name = Console.ReadLine();
                                 if (name == null || name == "Никита")
                                 {
@@ -153,6 +155,8 @@
                                 }
                                 else
                                 {
+                                    if (String.IsNullOrWhiteSpace(name))
+                                        name = "БЕЗЫМЯННЫЙ ЧЕЛ";
                                     Console.WriteLine("Кем вы хотите работать?\n1. Оператором\n2. Разносчиком писем\n3. Кассиром");
                                     if (!int.TryParse(Console.ReadLine(), out int choice) || choice < 1 || choice > 3)
                                         throw new ArgumentException("Такой команды нет!!!");
@@ -171,7 +175,7 @@
                             case Question.Code when q >= 5:
                                 Console.WriteLine("Введите пароль");
                                 password = Console.ReadLine();
-                                    if (password == "ане Ищу посылку6" || password == "анеИщу посылку6" || password == "анеИщу посылку 6" || password == "анеИщу посылку 6" || password == "почтароссии")
+                                    if (password == "ане Ищу посылку6" || password == "анеИщу посылку6" || password == "анеИщу посылку 6" || password == "анеИщу посылку 6" || password?.Replace(" ", "").ToLower() == "почтароссии")
                                     {
                                         end = true;
                                         localEnd = true;

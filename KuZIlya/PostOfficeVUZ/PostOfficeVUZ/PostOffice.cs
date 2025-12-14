@@ -32,7 +32,7 @@ namespace PostOfficeVUZ {
         /// Задаёт все вопросы всем сотрудникам
         /// </summary>
         /// <returns>Строку с ответами на вопросы</returns>
-        public string Poll()
+        public string AskAllQuestions()
         {
             string message = "";
             foreach (var employee in Employees)
@@ -47,7 +47,7 @@ namespace PostOfficeVUZ {
         /// Возвращает среднюю зарплату сотрудников
         /// </summary>
         /// <returns>Средння зарплата сотрудников</returns>
-        public int Stat()
+        public int SalaryStatistics()
         {
             decimal sum = 0;
             foreach (var employee in Employees)
