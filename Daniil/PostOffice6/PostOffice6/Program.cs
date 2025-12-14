@@ -44,7 +44,7 @@ namespace PostOffice6
             int id = 1;
             foreach (Employee emp in office.Employees)
             {
-                Console.WriteLine($"{id} - {emp.Say()} - {emp.Salary} - {emp.JobTitle}");
+                Console.WriteLine($"{id} - {emp.SayName()} - {emp.Salary} - {emp.JobTitle}");
                 id++;
             }
             Console.WriteLine($"{id} - Отмена");
@@ -97,7 +97,8 @@ namespace PostOffice6
                 Console.WriteLine("3 - Посмотреть зарплатную ведомость");
                 Console.WriteLine("4 - Уволить сотрудника");
                 Console.WriteLine("5 - Изменить зарплату сотрудника");
-                Console.WriteLine("6 - Выйти");
+                Console.WriteLine("6 - Посмотреть отчёт о командах");
+                Console.WriteLine("7 - Выйти");
                 switch (Console.ReadLine()) 
                 {
                     case "1":
@@ -110,7 +111,7 @@ namespace PostOffice6
                         break;
                     case "3":
                         Console.Clear();
-                        Console.WriteLine(myOffice.Stat());
+                        Console.WriteLine(myOffice.SalaryStat());
                         Console.ReadKey();
                         break;
                     case "4":
@@ -151,6 +152,7 @@ namespace PostOffice6
                         NewSall:
                             Console.Clear();
                             Console.WriteLine("Введите новую зарплату:");
+                            Console.WriteLine("0 - Отмена;");
                             bool cor = int.TryParse(Console.ReadLine(), out int newSall);
                             Console.Clear();
                             if (!correct || newSall < 0)
@@ -159,16 +161,26 @@ namespace PostOffice6
                                 Console.ReadKey();
                                 goto NewSall;
                             }
+                            else if(newSall == 0)
+                            {
+                                goto RemakeSalary;
+                            }
                             else
                             {
-                                Console.WriteLine($"Вы поменяли зарплату сотруднику, теперь {myOffice.Employees[upper - 1]} зарабатывает {newSall}");
+                                Console.WriteLine($"Вы поменяли зарплату сотруднику, теперь {myOffice.Employees[upper - 1].SayName()} зарабатывает {newSall}");
                                 myOffice.Employees[upper - 1].Salary = newSall;
                             }
                             Console.ReadKey();
                         }
                         break;
-
                     case "6":
+                        {
+                            Console.Clear();
+                            Console.WriteLine(myOffice.CommandStat());
+                            Console.ReadKey();
+                            break;
+                        }
+                    case "7":
                         isWorking = false;
                         break;
                     default:

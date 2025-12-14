@@ -9,12 +9,9 @@ namespace Programming7
         public ProgrammingLanguage ProgrammingLanguage { get; set; }
         public double Achievement { get; set; }
 
-        public Student(string name, int courseNumber, ProgrammingLanguage programmingLanguage, double achievement)
+        public Student(string name)
         {
             Name = name;
-            CourseNumber = courseNumber;
-            ProgrammingLanguage = programmingLanguage;
-            Achievement = achievement;
         }
 
         /// <summary>

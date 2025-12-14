@@ -7,9 +7,9 @@ namespace SmartPhone8
     internal class Factory
     {
         public List<Customer> Customers { get; set; }
-        private List<GentleSmartphone> Smarphones { get; set; } = new List<GentleSmartphone>();
-        private List<Transformator> Transformators { get; set; } = new List<Transformator>();
-        private List<Tablet> Tablets { get; set; } = new List<Tablet>();
+        private List<GentleSmartphone> smarphones = new List<GentleSmartphone>();
+        private List<Transformator> transformators = new List<Transformator>();
+        private List<Tablet> tablets  = new List<Tablet>();
 
         public int[] minuses = { 0, 0, 0 };
 
@@ -17,16 +17,16 @@ namespace SmartPhone8
         {
             for (int id = 1; id <= amountOfPhones; id++)
             {
-                Smarphones.Add(new GentleSmartphone(id));
+                smarphones.Add(new GentleSmartphone(id));
             }
             for (int id = 1; id <= amountOfTransformators; id += 2)
             {
-                Transformators.Add(new Transformator(id, TransformatorType.Multiplier));
-                Transformators.Add(new Transformator(id + 1, TransformatorType.Devider));
+                transformators.Add(new Transformator(id, TransformatorType.Multiplier));
+                transformators.Add(new Transformator(id + 1, TransformatorType.Devider));
             }
             for (int id = 1; id <= amountOfTablets; id++)
             {
-                Tablets.Add(new Tablet(id));
+                tablets.Add(new Tablet(id));
             }
         }
 
@@ -35,16 +35,16 @@ namespace SmartPhone8
             Customers = cs;
             for (int id = 1; id <= amountOfPhones; id++)
             {
-                Smarphones.Add(new GentleSmartphone(id));
+                smarphones.Add(new GentleSmartphone(id));
             }
             for (int id = 1; id <= amountOfTransformators * 2; id += 2)
             {
-                Transformators.Add(new Transformator(id, TransformatorType.Multiplier));
-                Transformators.Add(new Transformator(id + 1, TransformatorType.Devider));
+                transformators.Add(new Transformator(id, TransformatorType.Multiplier));
+                transformators.Add(new Transformator(id + 1, TransformatorType.Devider));
             }
             for (int id = 1; id <= amountOfTablets; id++)
             {
-                Tablets.Add(new Tablet(id));
+                tablets.Add(new Tablet(id));
             }
         }
 
@@ -60,28 +60,28 @@ namespace SmartPhone8
         {
             foreach (Customer customer in Customers)
             {
-                foreach (GentleSmartphone phone in Smarphones)
+                foreach (GentleSmartphone phone in smarphones)
                 {
                     if ((customer.GentleRate / phone.Sensor.Sensivity >= 1 && customer.GentleRate / phone.Sensor.Sensivity <= 1.5) ||
                         (phone.Sensor.Sensivity / customer.GentleRate >= 1 && phone.Sensor.Sensivity / customer.GentleRate <= 1.5))
                     {
                         customer.Smartphone = phone;
-                        Smarphones.Remove(phone);
+                        smarphones.Remove(phone);
                         minuses[1] -= 1;
                         break;
                     }
                     else if (customer.GentleRate / phone.Sensor.Sensivity > 1.5 && customer.GentleRate / phone.Sensor.Sensivity <= 2)
                     {
                         bool transWasFounded = false;
-                        foreach (Transformator transformator in Transformators)
+                        foreach (Transformator transformator in transformators)
                         {
                             if (transformator.TransfromType == TransformatorType.Multiplier)
                             {
                                 customer.TransformModule = transformator;
                                 customer.Smartphone = phone;
-                                Smarphones.Remove(phone);
+                                smarphones.Remove(phone);
                                 minuses[1] -= 1;
-                                Transformators.Remove(transformator);
+                                transformators.Remove(transformator);
                                 minuses[0] -= 1;
                                 transWasFounded = true;
                                 break;
@@ -95,15 +95,15 @@ namespace SmartPhone8
                     else if (phone.Sensor.Sensivity / customer.GentleRate > 1.5 && phone.Sensor.Sensivity / customer.GentleRate <= 2)
                     {
                         bool transWasFounded = false;
-                        foreach (Transformator transformator in Transformators)
+                        foreach (Transformator transformator in transformators)
                         {
                             if (transformator.TransfromType == TransformatorType.Devider)
                             {
                                 customer.TransformModule = transformator;
                                 customer.Smartphone = phone;
-                                Smarphones.Remove(phone);
+                                smarphones.Remove(phone);
                                 minuses[1] -= 1;
-                                Transformators.Remove(transformator);
+                                transformators.Remove(transformator);
                                 minuses[0] -= 1;
                                 transWasFounded = true;
                                 break;
@@ -118,18 +118,18 @@ namespace SmartPhone8
                 }
                 if (customer.Smartphone == null)
                 {
-                    foreach (Tablet tablet in Tablets)
+                    foreach (Tablet tablet in tablets)
                     {
                         customer.Tablet = tablet;
-                        Tablets.Remove(tablet);
+                        tablets.Remove(tablet);
                         minuses[2] -= 1;
                         break;
                     }
                 }
             }
-            Smarphones = new List<GentleSmartphone>();
-            Transformators = new List<Transformator>();
-            Tablets = new List<Tablet>();
+            smarphones = new List<GentleSmartphone>();
+            transformators = new List<Transformator>();
+            tablets = new List<Tablet>();
         }
     }
 }

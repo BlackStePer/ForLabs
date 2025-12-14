@@ -18,6 +18,7 @@ namespace SmartPhone8
 
         static void Main(string[] args)
         {
+            string questNum = "";
             //Предисловие
             Console.WriteLine(GameHepler.info);
             Console.ReadKey();
@@ -39,10 +40,16 @@ namespace SmartPhone8
                     foreach (string s in GameHepler.questsToLvl[GameHepler.mylvl])
                     {
                         Console.WriteLine(s + " " + Convert.ToInt32(GameHepler.countMoneyTryes[GameHepler.mylvl.ToString() + s[0]][1]) + " шт");
+                        questNum = s[0].ToString();
                     }
+                    Console.WriteLine($"{Convert.ToInt32(questNum) + 1} - Отмена:");
                     //Проверка на оставшееся количество задач
                     string choice = Console.ReadLine();
-                    if(GameHepler.countMoneyTryes[GameHepler.mylvl.ToString() + choice][1] == 0)
+                    if (Convert.ToInt32(choice) == Convert.ToInt32(questNum) + 1)
+                    {
+                        goto GameBase;
+                    }
+                        if (GameHepler.countMoneyTryes[GameHepler.mylvl.ToString() + choice][1] == 0)
                     {
                         Console.Clear();
                         Console.WriteLine("Этих задач не осталось =(");

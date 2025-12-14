@@ -22,7 +22,7 @@ namespace PostOffice6
         /// Возвращает имя работник
         /// </summary>
         /// <returns>Строка с именем работника</returns>
-        public string Say()
+        public string SayName()
         {
             return Name;
         }
@@ -31,7 +31,7 @@ namespace PostOffice6
         /// Возвращает время работы человека в компании: Для касира в днях, для оператора в месяцах, для доставщика в годах
         /// </summary>
         /// <returns>Время работы в виде целого числа</returns>
-        public virtual int WorkTime()
+        public virtual int WorkTimeInCompany()
         {
             return 0;
         }

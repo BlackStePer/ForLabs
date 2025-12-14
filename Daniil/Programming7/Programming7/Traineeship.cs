@@ -7,6 +7,9 @@ namespace Programming7
 {
     internal class Traineeship
     {
+        private Random rnd = new Random();
+
+        private Array progL = Enum.GetValues(typeof(ProgrammingLanguage));
         public List<Student> Candidates { get; set; }
         public List<Department> Departaments { get; set; }
 
@@ -48,13 +51,23 @@ namespace Programming7
             }
             if (Candidates.Count > 0) 
             {
-                report += "Остатки:\n";
+                report += "Ничего не добились:\n";
                 foreach (Student student in Candidates)
                 {
                     report += student.ToString() + "\n";
                 }
             }
             return report;
+        }
+
+        public void Study()
+        {
+            foreach (Student student in Candidates) 
+            {
+                student.Achievement = Math.Round(rnd.NextDouble(), 2);
+                student.ProgrammingLanguage = (ProgrammingLanguage)progL.GetValue(rnd.Next(progL.Length));
+                student.CourseNumber = rnd.Next(1, 5);
+            }
         }
     }
 }

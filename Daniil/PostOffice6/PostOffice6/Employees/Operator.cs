@@ -8,7 +8,7 @@ namespace PostOffice6.Employees
         public Operator(string name, int salary) : base(name, salary)
         {
         }
-        public override int WorkTime()
+        public override int WorkTimeInCompany()
         {
             return DateOfEmployment.Month;
         }
