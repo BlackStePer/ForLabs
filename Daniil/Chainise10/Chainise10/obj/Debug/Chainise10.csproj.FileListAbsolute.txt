@@ -1,0 +1,8 @@
+G:\Прога\Chainise10\Chainise10\bin\Debug\Chainise10.exe.config
+G:\Прога\Chainise10\Chainise10\bin\Debug\Chainise10.exe
+G:\Прога\Chainise10\Chainise10\bin\Debug\Chainise10.pdb
+G:\Прога\Chainise10\Chainise10\obj\Debug\Chainise10.csproj.AssemblyReference.cache
+G:\Прога\Chainise10\Chainise10\obj\Debug\Chainise10.csproj.CoreCompileInputs.cache
+G:\Прога\Chainise10\Chainise10\obj\Debug\Chainise10.exe
+G:\Прога\Chainise10\Chainise10\obj\Debug\Chainise10.pdb
+G:\Прога\Chainise10\Chainise10\obj\Debug\Chainise10.exe.config
