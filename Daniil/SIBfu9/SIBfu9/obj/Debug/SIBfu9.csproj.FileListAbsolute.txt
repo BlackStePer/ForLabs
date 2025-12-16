@@ -1,0 +1,8 @@
+G:\Прога\SIBfu9\SIBfu9\bin\Debug\SIBfu9.exe.config
+G:\Прога\SIBfu9\SIBfu9\bin\Debug\SIBfu9.exe
+G:\Прога\SIBfu9\SIBfu9\bin\Debug\SIBfu9.pdb
+G:\Прога\SIBfu9\SIBfu9\obj\Debug\SIBfu9.csproj.AssemblyReference.cache
+G:\Прога\SIBfu9\SIBfu9\obj\Debug\SIBfu9.csproj.CoreCompileInputs.cache
+G:\Прога\SIBfu9\SIBfu9\obj\Debug\SIBfu9.exe
+G:\Прога\SIBfu9\SIBfu9\obj\Debug\SIBfu9.pdb
+G:\Прога\SIBfu9\SIBfu9\obj\Debug\SIBfu9.exe.config
