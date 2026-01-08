@@ -1,0 +1,14 @@
+C:\Users\Пользователь\source\repos\VeryBadEffectsVuZ\VeryBadEffectsVuZ\bin\Debug\net10.0\VeryBadEffectsVuZ.exe
+C:\Users\Пользователь\source\repos\VeryBadEffectsVuZ\VeryBadEffectsVuZ\bin\Debug\net10.0\VeryBadEffectsVuZ.deps.json
+C:\Users\Пользователь\source\repos\VeryBadEffectsVuZ\VeryBadEffectsVuZ\bin\Debug\net10.0\VeryBadEffectsVuZ.runtimeconfig.json
+C:\Users\Пользователь\source\repos\VeryBadEffectsVuZ\VeryBadEffectsVuZ\bin\Debug\net10.0\VeryBadEffectsVuZ.dll
+C:\Users\Пользователь\source\repos\VeryBadEffectsVuZ\VeryBadEffectsVuZ\bin\Debug\net10.0\VeryBadEffectsVuZ.pdb
+C:\Users\Пользователь\source\repos\VeryBadEffectsVuZ\VeryBadEffectsVuZ\obj\Debug\net10.0\VeryBadEffectsVuZ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Пользователь\source\repos\VeryBadEffectsVuZ\VeryBadEffectsVuZ\obj\Debug\net10.0\VeryBadEffectsVuZ.AssemblyInfoInputs.cache
+C:\Users\Пользователь\source\repos\VeryBadEffectsVuZ\VeryBadEffectsVuZ\obj\Debug\net10.0\VeryBadEffectsVuZ.AssemblyInfo.cs
+C:\Users\Пользователь\source\repos\VeryBadEffectsVuZ\VeryBadEffectsVuZ\obj\Debug\net10.0\VeryBadEffectsVuZ.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\VeryBadEffectsVuZ\VeryBadEffectsVuZ\obj\Debug\net10.0\VeryBadEffectsVuZ.dll
+C:\Users\Пользователь\source\repos\VeryBadEffectsVuZ\VeryBadEffectsVuZ\obj\Debug\net10.0\refint\VeryBadEffectsVuZ.dll
+C:\Users\Пользователь\source\repos\VeryBadEffectsVuZ\VeryBadEffectsVuZ\obj\Debug\net10.0\VeryBadEffectsVuZ.pdb
+C:\Users\Пользователь\source\repos\VeryBadEffectsVuZ\VeryBadEffectsVuZ\obj\Debug\net10.0\VeryBadEffectsVuZ.genruntimeconfig.cache
+C:\Users\Пользователь\source\repos\VeryBadEffectsVuZ\VeryBadEffectsVuZ\obj\Debug\net10.0\ref\VeryBadEffectsVuZ.dll
