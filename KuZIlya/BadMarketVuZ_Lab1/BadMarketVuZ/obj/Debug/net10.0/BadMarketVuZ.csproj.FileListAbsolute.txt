@@ -1,0 +1,14 @@
+C:\Users\Пользователь\source\repos\BadMarketVuZ\BadMarketVuZ\bin\Debug\net10.0\BadMarketVuZ.exe
+C:\Users\Пользователь\source\repos\BadMarketVuZ\BadMarketVuZ\bin\Debug\net10.0\BadMarketVuZ.deps.json
+C:\Users\Пользователь\source\repos\BadMarketVuZ\BadMarketVuZ\bin\Debug\net10.0\BadMarketVuZ.runtimeconfig.json
+C:\Users\Пользователь\source\repos\BadMarketVuZ\BadMarketVuZ\bin\Debug\net10.0\BadMarketVuZ.dll
+C:\Users\Пользователь\source\repos\BadMarketVuZ\BadMarketVuZ\bin\Debug\net10.0\BadMarketVuZ.pdb
+C:\Users\Пользователь\source\repos\BadMarketVuZ\BadMarketVuZ\obj\Debug\net10.0\BadMarketVuZ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Пользователь\source\repos\BadMarketVuZ\BadMarketVuZ\obj\Debug\net10.0\BadMarketVuZ.AssemblyInfoInputs.cache
+C:\Users\Пользователь\source\repos\BadMarketVuZ\BadMarketVuZ\obj\Debug\net10.0\BadMarketVuZ.AssemblyInfo.cs
+C:\Users\Пользователь\source\repos\BadMarketVuZ\BadMarketVuZ\obj\Debug\net10.0\BadMarketVuZ.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\BadMarketVuZ\BadMarketVuZ\obj\Debug\net10.0\BadMarketVuZ.dll
+C:\Users\Пользователь\source\repos\BadMarketVuZ\BadMarketVuZ\obj\Debug\net10.0\refint\BadMarketVuZ.dll
+C:\Users\Пользователь\source\repos\BadMarketVuZ\BadMarketVuZ\obj\Debug\net10.0\BadMarketVuZ.pdb
+C:\Users\Пользователь\source\repos\BadMarketVuZ\BadMarketVuZ\obj\Debug\net10.0\BadMarketVuZ.genruntimeconfig.cache
+C:\Users\Пользователь\source\repos\BadMarketVuZ\BadMarketVuZ\obj\Debug\net10.0\ref\BadMarketVuZ.dll
