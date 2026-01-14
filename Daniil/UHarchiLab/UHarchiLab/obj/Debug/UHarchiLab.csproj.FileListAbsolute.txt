@@ -1,0 +1,7 @@
+C:\Users\Daniil\source\repos\UHarchiLab\UHarchiLab\bin\Debug\UHarchiLab.exe.config
+C:\Users\Daniil\source\repos\UHarchiLab\UHarchiLab\bin\Debug\UHarchiLab.exe
+C:\Users\Daniil\source\repos\UHarchiLab\UHarchiLab\bin\Debug\UHarchiLab.pdb
+C:\Users\Daniil\source\repos\UHarchiLab\UHarchiLab\obj\Debug\UHarchiLab.csproj.AssemblyReference.cache
+C:\Users\Daniil\source\repos\UHarchiLab\UHarchiLab\obj\Debug\UHarchiLab.csproj.CoreCompileInputs.cache
+C:\Users\Daniil\source\repos\UHarchiLab\UHarchiLab\obj\Debug\UHarchiLab.exe
+C:\Users\Daniil\source\repos\UHarchiLab\UHarchiLab\obj\Debug\UHarchiLab.pdb
