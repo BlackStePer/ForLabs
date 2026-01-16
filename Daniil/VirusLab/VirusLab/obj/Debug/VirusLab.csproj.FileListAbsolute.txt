@@ -1,0 +1,7 @@
+C:\Users\Daniil\source\repos\VirusLab\VirusLab\bin\Debug\VirusLab.exe.config
+C:\Users\Daniil\source\repos\VirusLab\VirusLab\bin\Debug\VirusLab.exe
+C:\Users\Daniil\source\repos\VirusLab\VirusLab\bin\Debug\VirusLab.pdb
+C:\Users\Daniil\source\repos\VirusLab\VirusLab\obj\Debug\VirusLab.csproj.AssemblyReference.cache
+C:\Users\Daniil\source\repos\VirusLab\VirusLab\obj\Debug\VirusLab.csproj.CoreCompileInputs.cache
+C:\Users\Daniil\source\repos\VirusLab\VirusLab\obj\Debug\VirusLab.exe
+C:\Users\Daniil\source\repos\VirusLab\VirusLab\obj\Debug\VirusLab.pdb
