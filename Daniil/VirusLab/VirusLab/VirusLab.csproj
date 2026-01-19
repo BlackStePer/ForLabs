@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ForGame\Defender.cs" />
+    <Compile Include="ForGame\Freeze.cs" />
+    <Compile Include="ForGame\Map.cs" />
+    <Compile Include="ForGame\Vulnerability.cs" />
     <Compile Include="Notyifiers\BasicLayerNotifier.cs" />
     <Compile Include="Notyifiers\EndLayerNotifier.cs" />
     <Compile Include="Notyifiers\IReactProtectionFall.cs" />

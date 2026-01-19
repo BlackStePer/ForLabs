@@ -2,6 +2,9 @@
 
 namespace VirusLab
 {
+    /// <summary>
+    /// Компоненты взлома
+    /// </summary>
     internal class ProtectionFallEventArgs : EventArgs
     {
         public int FalledProtectionNumber { get; set; }

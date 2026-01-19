@@ -3,10 +3,13 @@ using System.Runtime.Remoting.Messaging;
 
 namespace VirusLab
 {
+    /// <summary>
+    /// Система с защитой от вирусом
+    /// </summary>
     internal class ProtectionSystem
     {
         private int currentProtectionLvl = 1;
-        private readonly double _security;
+        public double Security;
         public string Title { get; private set; }
         public DateTime Date { get; private set; } =  new DateTime(1, 1, 1);
         public int ProtectionLeyerNember { get; private set; }
@@ -17,8 +20,12 @@ namespace VirusLab
         {
             Title = title;
             ProtectionLeyerNember = protectionLeyerNum;
-            _security = security;
+            Security = security;
         }
+        /// <summary>
+        /// Проверка безорпасности
+        /// </summary>
+        /// <returns>Уровень защиты взломан?</returns>
         public virtual bool ProtectionCheck()
         {
             Date = Date.AddDays(1);
@@ -32,10 +39,12 @@ namespace VirusLab
                 return true;
             }
         }
-
+        /// <summary>
+        /// Ответ на атаку вируса
+        /// </summary>
         public virtual void GetAttack()
         {
-            if (rnd.NextDouble() >= _security  && currentProtectionLvl <= ProtectionLeyerNember)
+            if (rnd.NextDouble() < Security  && currentProtectionLvl <= ProtectionLeyerNember)
                 currentProtectionLvl++;
         }
     }

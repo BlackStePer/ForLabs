@@ -3,6 +3,9 @@ using System.Net.Http.Headers;
 
 namespace VirusLab
 {
+    /// <summary>
+    /// Оповещатель полного влома системы
+    /// </summary>
     internal class EndLayerNotifier : IReactProtectionFall
     {
         public int LayerReactionNumber { get; private set; }
@@ -18,9 +21,15 @@ namespace VirusLab
             {
                 TimeSpan dif = args.System.Date -  new DateTime(1, 1, 1);
                 Message = $"Система {args.System.Title} прорвана вирусом {skyda} за {dif.Days} дней";
-                Console.WriteLine(Message);
+                Console.ForegroundColor = ConsoleColor.Green;
+                foreach (char c in Message)
+                {
+                    Console.Write(c);
+                }
+                Console.ForegroundColor = ConsoleColor.White;
             }
         }
+ 
         public void Subscribe(Skyda skyda)
         {
             skyda.ProtectionFall += OnProtectionFall;
