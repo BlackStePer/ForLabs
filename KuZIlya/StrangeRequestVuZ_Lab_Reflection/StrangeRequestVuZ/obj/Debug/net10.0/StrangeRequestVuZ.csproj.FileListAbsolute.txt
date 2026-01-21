@@ -1,0 +1,14 @@
+C:\Users\Пользователь\source\repos\StrangeRequestVuZ\StrangeRequestVuZ\obj\Debug\net10.0\StrangeRequestVuZ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Пользователь\source\repos\StrangeRequestVuZ\StrangeRequestVuZ\obj\Debug\net10.0\StrangeRequestVuZ.AssemblyInfoInputs.cache
+C:\Users\Пользователь\source\repos\StrangeRequestVuZ\StrangeRequestVuZ\obj\Debug\net10.0\StrangeRequestVuZ.AssemblyInfo.cs
+C:\Users\Пользователь\source\repos\StrangeRequestVuZ\StrangeRequestVuZ\obj\Debug\net10.0\StrangeRequestVuZ.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\StrangeRequestVuZ\StrangeRequestVuZ\bin\Debug\net10.0\StrangeRequestVuZ.exe
+C:\Users\Пользователь\source\repos\StrangeRequestVuZ\StrangeRequestVuZ\bin\Debug\net10.0\StrangeRequestVuZ.deps.json
+C:\Users\Пользователь\source\repos\StrangeRequestVuZ\StrangeRequestVuZ\bin\Debug\net10.0\StrangeRequestVuZ.runtimeconfig.json
+C:\Users\Пользователь\source\repos\StrangeRequestVuZ\StrangeRequestVuZ\bin\Debug\net10.0\StrangeRequestVuZ.dll
+C:\Users\Пользователь\source\repos\StrangeRequestVuZ\StrangeRequestVuZ\bin\Debug\net10.0\StrangeRequestVuZ.pdb
+C:\Users\Пользователь\source\repos\StrangeRequestVuZ\StrangeRequestVuZ\obj\Debug\net10.0\StrangeRequestVuZ.dll
+C:\Users\Пользователь\source\repos\StrangeRequestVuZ\StrangeRequestVuZ\obj\Debug\net10.0\refint\StrangeRequestVuZ.dll
+C:\Users\Пользователь\source\repos\StrangeRequestVuZ\StrangeRequestVuZ\obj\Debug\net10.0\StrangeRequestVuZ.pdb
+C:\Users\Пользователь\source\repos\StrangeRequestVuZ\StrangeRequestVuZ\obj\Debug\net10.0\StrangeRequestVuZ.genruntimeconfig.cache
+C:\Users\Пользователь\source\repos\StrangeRequestVuZ\StrangeRequestVuZ\obj\Debug\net10.0\ref\StrangeRequestVuZ.dll
