@@ -1,0 +1,7 @@
+C:\Users\Daniil\source\repos\ListCheckLab\ListCheckLab\bin\Debug\ListCheckLab.exe.config
+C:\Users\Daniil\source\repos\ListCheckLab\ListCheckLab\bin\Debug\ListCheckLab.exe
+C:\Users\Daniil\source\repos\ListCheckLab\ListCheckLab\bin\Debug\ListCheckLab.pdb
+C:\Users\Daniil\source\repos\ListCheckLab\ListCheckLab\obj\Debug\ListCheckLab.csproj.AssemblyReference.cache
+C:\Users\Daniil\source\repos\ListCheckLab\ListCheckLab\obj\Debug\ListCheckLab.csproj.CoreCompileInputs.cache
+C:\Users\Daniil\source\repos\ListCheckLab\ListCheckLab\obj\Debug\ListCheckLab.exe
+C:\Users\Daniil\source\repos\ListCheckLab\ListCheckLab\obj\Debug\ListCheckLab.pdb
